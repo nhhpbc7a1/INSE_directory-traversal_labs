@@ -21,29 +21,29 @@ Vào folder folder vừa clone được, docker compose
 Cách xem địa chỉ ip đối với windows
 > ipconfig 
 
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 vậy địa để website trong mạng nội bộ là
 > https://192.168.31.148:3000
 
 Mở burp suite và bật intercept
-![alt text](image-3.png)
-![alt text](image-4.png)
+![alt text](./images/image-3.png)
+![alt text](./images/image-4.png)
 
 Mở browser của burp suite và truy cập website
-![alt text](image-2.png)
+![alt text](./images/image-2.png)
 
 Các request hiện ra
-![alt text](image-5.png)
+![alt text](./images/image-5.png)
 
 Send to repeater, để chỉnh sửa request đó
-![alt text](image-6.png)
+![alt text](./images/image-6.png)
 
 Qua repeater, bắt đầu chỉnh sửa
-![alt text](image-7.png)
+![alt text](./images/image-7.png)
 
 ## Case 1:
-![alt text](image-8.png)
+![alt text](./images/image-8.png)
 => Truy cập thành công file /etc/passwd của server website
 
 video tham khảo:
