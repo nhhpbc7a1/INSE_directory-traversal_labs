@@ -46,6 +46,15 @@ Qua repeater, bắt đầu chỉnh sửa
 ![alt text](./images/image-8.png)
 => Truy cập thành công file /etc/passwd của server website
 
+file scripts chứa code backend xử lý request
+![alt text](./images/image-9.png)
+đã có protect function cho case 1, các bước để vá lỗ hổng case 1:
+ - Mở khóa cho function của case 1 chạy.
+ - Lưu file
+ - Ctrl + C trong command prompt của docker-compose để dùng, docker-compose up --build 
+để chạy lại.
+ - Thử lại với **Burp Suite**
+ 
 video tham khảo:
 > https://www.youtube.com/watch?v=6z49dU1HVgI&list=PLuyTk2_mYISL2DdD_m1ELEjpiPKxV98MO
 > https://portswigger.net/web-security/file-path-traversal
